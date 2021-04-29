@@ -13,6 +13,7 @@ User user=new User(1,"Fatih","Cakir","2558624");
 	
 	User user2=new User();
 	user2.getId();
+	//skjdhksjd
 	
 	
 	}
