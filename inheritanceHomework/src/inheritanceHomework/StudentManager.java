@@ -2,14 +2,14 @@ package inheritanceHomework;
 
 public class StudentManager extends UserManager{
 
-	@Override
-	public void add() {
+
+	public void add(User user) {
 		System.out.println("Öðrenci kaydý tamamlandý.");
 		
 	}
 	
-	@Override
-	public void list() {
+
+	public void list(User user) {
 		System.out.println("Öðrenciler listelendi.");
 		
 	}
